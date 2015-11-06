@@ -3,10 +3,8 @@
 <h1>Listing Posts</h1>
 
 <%= link_to 'New Post', new_post_path %>
-
-<div class="paginacao">
-<%= paginate @posts %> 
-</div>
+ 
+<hr>
 
 <table>
   <thead>
@@ -30,8 +28,11 @@
   </tbody>
 </table> 
 
-<div class="paginacao">
-<%= paginate @posts %> 
+<hr>
+
+<div class="digg_pagination"> 
+  <%= will_paginate @posts, :container => false %>
 </div>
-<br>
+
+
 
