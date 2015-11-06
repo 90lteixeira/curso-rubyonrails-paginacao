@@ -1,2 +1,2 @@
-.corpo{padding: 50px; border: 1px solid #000}
+.corpo{padding: 50px; border-top: 1px solid #000; border-bottom: 1px solid #000; margin:10px;}
 td{padding: 4px; min-width: 70px;}
