@@ -4,7 +4,7 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
-    @posts = Post.where("department_id = ? and category_id = ?",1, 1).page(params[:page]).per(15)
+    @posts = Post.order("id DESC").page(params[:page])
   end
 
   # GET /posts/1

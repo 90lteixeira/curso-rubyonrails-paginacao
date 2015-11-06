@@ -1,7 +1,13 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Listing Posts</h1>
- 
+
+<%= link_to 'New Post', new_post_path %>
+
+<div class="paginacao">
+<%= paginate @posts %> 
+</div>
+
 <table>
   <thead>
     <tr>
@@ -22,10 +28,10 @@
       </tr>
     <% end %>
   </tbody>
-</table>
- 
- <%= paginate @posts %> 
+</table> 
 
+<div class="paginacao">
+<%= paginate @posts %> 
+</div>
 <br>
 
-<%= link_to 'New Post', new_post_path %>

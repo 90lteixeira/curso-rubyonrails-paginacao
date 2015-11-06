@@ -1,2 +1,4 @@
-.corpo{padding: 50px; border-top: 1px solid #000; border-bottom: 1px solid #000; margin:10px;}
+.corpo{border-radius: 6px; background: #eee; padding: 50px; border-top: 6px solid #000; border-bottom: 6px solid #000; margin:10px;}
 td{padding: 4px; min-width: 70px;}
+.paginacao{border: 1px solid #999; border-radius: 5px; padding: 4px; margin: 10px;}
+body{background: #999}
